@@ -13,6 +13,7 @@ Created by:
 * **Erik Stefan** (22224939)
 * **James Tarrant** (20924309)
 * **Dylan Turner** (22240231)
+
 Developed for use in CITS3200, on behalf of SES CSU. 
 [The full git repository can be found here.](https://github.com/tarrantja/remote-monitor-web)
 
