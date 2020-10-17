@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block app_content %}
+<div class="container">
+
+{% for device in devices %}
+  {% if device['approved'] == True %}
+  <div class="device" id='{{ device["id"] }}'>
+    <h1>{{ device['displayName'] }}</h1>
+    <div class="row">
+      <div class="col-xs-6">
+        <h2>Mains Status</h2>
+        <p id='{{ device["id"] }}_mains_value' class="telemetry"><i class='fa fa-spinner fa-spin'></i></p>
+        <p>Last sample taken <span data-time="" class="time" id='{{ device["id"] }}_mains_time'><i class='fa fa-spinner fa-spin'></i></span> ago</p>  
+        <label class="switch">
+          <input type="checkbox" data-id='{{ device["id"] }}' id='{{ device["id"] }}_mains_notif' {% if device['mains_notification'] == "ON" %} checked {% endif %}>
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div class="col-xs-6">
+        <h2>Battery Voltage</h2>
+        <p id='{{ device["id"] }}_battery_value' class="telemetry"><i class='fa fa-spinner fa-spin'></i></p>
+        <p>Last sample taken <span data-time="" class="time" id='{{ device["id"] }}_battery_time'><i class='fa fa-spinner fa-spin'></i></span> ago</p> 
+        <label class="switch">
+          <input type="checkbox" data-id='{{ device["id"] }}' id='{{ device["id"] }}_batt_notif' {% if device['battery_notification'] == 'ON' %} checked {% endif %}>
+          <span class="slider round"></span>
+        </label>  
+      </div>
+        
+      </div>
+    </div>
+    {% endif %}
+{% endfor %} 
+</div>
+
+{% endblock %}
