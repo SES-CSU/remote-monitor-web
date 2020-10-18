@@ -35,7 +35,8 @@ The application architecture is shown in the image below:
 
 
 ## How to Launch
-1. Clone repository https://github.com/erik6K/remote-monitor from github and extract the *.zip* contents
+### Local Host
+1. Clone repository https://github.com/tarrantja/remote-monitor-web from github
 2.  `cd remote-monitor-web`
 3. Create virtual environmnent `python3 -m venv venv`
 4. Enter virtual environment `source venv/bin/activate` (or for Windows `venv\Scripts\activate`)
@@ -46,3 +47,8 @@ NOTE: If you recieve a 'running scripts is disabled error' on Windows, try runni
 10. `flask run`
 11. Go to http://localhost:5000/
 12. To exit use Ctrl+C or control+C
+
+### Production Deployment
+1. Ensure the changes are functional in localhost before deploying.
+2. Push or merge changes with the main branch.
+3. Azure App Service will automatically deploy the new changes.

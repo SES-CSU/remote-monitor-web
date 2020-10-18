@@ -1,3 +1,5 @@
+let UPDATE_FREQUENCY = 60; // Enter value in seconds
+
 /* Function snipper sourced from https://stackoverflow.com/questions/8211744/convert-time-interval-given-in-seconds-into-more-human-readable-form*/
 function millisecondsToStr(milliseconds) {
     // TIP: to find current time in milliseconds, use:
@@ -64,6 +66,8 @@ var get_telemetry = function () {
     });
 }
 
+/*Changes to the notification toggle switches are monitored.
+On change state the new notification status is sent the the web app, to be updated in the IoT Central application*/
 $(":checkbox").change(function() {
     let id = $(this).attr('data-id');
     var state_mains = "";
@@ -90,7 +94,7 @@ $(":checkbox").change(function() {
 
 });
 
-setInterval(get_telemetry, 60 * 1000);
+setInterval(get_telemetry, UPDATE_FREQUENCY * 1000); 
 
 setInterval(update_time, 1 * 1000);
 
