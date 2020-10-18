@@ -52,3 +52,8 @@ NOTE: If you recieve a 'running scripts is disabled error' on Windows, try runni
 1. Ensure the changes are functional in localhost before deploying.
 2. Push or merge changes with the main branch.
 3. Azure App Service will automatically deploy the new changes.
+
+## Licence
+This work is licensed under the Creative Commons Attribution-NonCommercial 3.0 Australia License. 
+
+This work was created with the assistance of the [Miguel Grinberg Microblog Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world).

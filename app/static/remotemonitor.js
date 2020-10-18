@@ -1,3 +1,6 @@
+/* This work is licensed under the Creative Commons Attribution-NonCommercial 3.0 Australia License.  
+Created by: Rio Akbar, Calvin Nguyen, Erik Stefan, James Tarrant, Dylan Turner */
+
 let UPDATE_FREQUENCY = 60; // Enter value in seconds
 
 /* Function snipper sourced from https://stackoverflow.com/questions/8211744/convert-time-interval-given-in-seconds-into-more-human-readable-form*/
