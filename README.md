@@ -6,6 +6,8 @@ An IoT device has been created to monitor the 240V AC normal supply, and 12V DC 
 * View the telemetry (mains and battery status) most recently reported from the device, and the time it was reported
 * Disable/enable associated SMS notifications
 
+Refer to [remote-monitor](https://github.com/erik6K/remote-monitor) for the associated hardware and firmware details. 
+
 ## Authors
 Created by:
 * **Rio Akbar** (22507035)
@@ -54,6 +56,6 @@ NOTE: If you recieve a 'running scripts is disabled error' on Windows, try runni
 3. Azure App Service will automatically deploy the new changes.
 
 ## Licence
-This work is licensed under the Creative Commons Attribution-NonCommercial 3.0 Australia License. 
+This work is licensed under Firmware: GPLv3. 
 
 This work was created with the assistance of the [Miguel Grinberg Microblog Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world).

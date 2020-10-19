@@ -1,4 +1,4 @@
-# This work is licensed under the Creative Commons Attribution-NonCommercial 3.0 Australia License.  
+# This work is licensed under Firmware: GPLv3.   
 # Created by: Rio Akbar, Calvin Nguyen, Erik Stefan, James Tarrant, Dylan Turner
 
 from flask import render_template, flash
