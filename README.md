@@ -27,7 +27,7 @@ Developed for use in CITS3200, on behalf of SES CSU.
 ## Architecture
 * Web application framework: **flask**
 * Templating language: **jinja2**
-* Deployed: **https://repeater-monitor.azurewebsites.net/**
+* Deployed: Azure App Service
 
 The application architecture is shown in the image below:
 
