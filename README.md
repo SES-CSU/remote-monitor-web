@@ -56,6 +56,6 @@ NOTE: If you recieve a 'running scripts is disabled error' on Windows, try runni
 3. Azure App Service will automatically deploy the new changes.
 
 ## Licence
-This work is licensed under Firmware: GPLv3. 
+This work is licensed under GPLv3. 
 
 This work was created with the assistance of the [Miguel Grinberg Microblog Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world).
